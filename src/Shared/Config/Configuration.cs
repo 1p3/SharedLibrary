@@ -41,7 +41,7 @@ public static class Configuration
         string[] lines = File.ReadAllLines(file);
 
         var cfg = new StringDictionary();
-        
+
         for (int i = 0; i < lines.Length; i++)
         {
             string line = lines[i].TrimStart();
